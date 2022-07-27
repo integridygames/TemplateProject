@@ -52,7 +52,7 @@ namespace Game.Installers.SampleScene
         {
             var gameInitializeSystem = Container.Instantiate<GameInitializeSystem>();
             Container.BindPreInitializeSystem(gameInitializeSystem);
-            
+
             var dayTimeSystem = Container.Instantiate<DayTimeSystem>();
             Container.BindUpdateSystemWithState(dayTimeSystem, _gameState);
         }

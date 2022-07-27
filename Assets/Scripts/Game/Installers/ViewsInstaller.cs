@@ -16,7 +16,16 @@ namespace Game.Installers
 
             foreach (var view in views)
             {
-                Container.Bind(view.GetType()).FromInstance(view).AsSingle();
+                var binding = Container.Bind(view.GetType()).FromInstance(view);
+
+                if (view.AsTransient)
+                {
+                    binding.AsTransient();
+                }
+                else
+                {
+                    binding.AsSingle();
+                }
             }
         }
     }

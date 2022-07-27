@@ -5,6 +5,10 @@ namespace TegridyCore.Base
 {
     public abstract class ViewBase : MonoBehaviour
     {
+        [SerializeField] private bool _asTransient;
+
+        public bool AsTransient => _asTransient;
+        
         public event Action OnShow;
         
         public event Action OnHide;
