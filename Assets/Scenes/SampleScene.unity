@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a76a45ee72f54f7aa2fb4f0fedd46107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _asTransient: 0
   _sunTransform: {fileID: 705507995}
 --- !u!1 &877626008
 GameObject:
@@ -343,6 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877626010}
   - component: {fileID: 877626009}
+  - component: {fileID: 877626018}
   - component: {fileID: 877626016}
   - component: {fileID: 877626012}
   - component: {fileID: 877626017}
@@ -371,6 +373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scriptableObjectInstallers: []
   _monoInstallers:
+  - {fileID: 877626018}
   - {fileID: 877626016}
   - {fileID: 877626012}
   - {fileID: 877626017}
@@ -494,6 +497,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5331199f72034cb08db3f3ab8de1f06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &877626018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877626008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84609e6dd35015241bbe9ba5bbba9e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &963194225
