@@ -2,7 +2,7 @@ using TegridyCore;
 using TegridyCore.StateBindings;
 using Zenject;
 
-namespace Game.Installers
+namespace Game.Installers.SampleScene
 {
     public class BootstrapInstaller : MonoInstaller
     {

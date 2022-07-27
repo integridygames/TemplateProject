@@ -1,7 +1,7 @@
 ﻿using TegridyCore.Base;
 using Zenject;
 
-namespace Game.Installers
+namespace Game.Installers.SampleScene
 {
     public class ViewsInstaller : MonoInstaller
     {

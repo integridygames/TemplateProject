@@ -1,9 +1,11 @@
-using UnityEngine;
 using Zenject;
 
-public class DataBaseInstaller : MonoInstaller
+namespace Game.Installers.SampleScene
 {
-    public override void InstallBindings()
+    public class DataBaseInstaller : MonoInstaller
     {
+        public override void InstallBindings()
+        {
+        }
     }
 }
